@@ -1,6 +1,6 @@
-provider "aws" {
-  region = "us-east-1"  # Replace with your desired AWS region
-}
+#provider "aws" {
+#  region = "us-east-1"  # Replace with your desired AWS region
+#}
 
 module "vpc" {
   source = "./modules/vpc"
